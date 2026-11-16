@@ -58,3 +58,4 @@ app.use('/system', (req, res, next) => {
 })
 app.use('/system', systemRouter)
 app.use(errorMiddleware)
+export default app
